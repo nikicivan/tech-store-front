@@ -1,0 +1,13 @@
+.imageUpload__avatar {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+}
+
+.imageUpload > label {
+    color: var(--font-color-primary);
+    font-weight: 600; 
+    font-size: var(--font-size-small);
+    cursor: pointer;
+    margin-left: 1rem;
+}

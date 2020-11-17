@@ -1,0 +1,59 @@
+.home__container {    
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    justify-content: center;
+}
+
+.home__container::-webkit-scrollbar {   
+    display: none;
+}
+
+.home__container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.home__title > h1 {
+    color: var(--font-color-primary);
+    font-size: var(--font-size-large);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.home__productCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.home__latestImage {
+    display: flex;
+    width: 100%;
+}
+
+.home__latestImage1 {
+    width: 100%;
+    object-fit: contain;
+}
+
+.home__latestImage2 {
+    width: 50%;
+    object-fit: contain;
+}
+
+.home__latestImage3 {
+    width: 33.3%;
+    object-fit: contain;
+}
+
+.MuiPagination-ul {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.MuiTouchRipple--root {
+    outline-width: 0 !important;
+}

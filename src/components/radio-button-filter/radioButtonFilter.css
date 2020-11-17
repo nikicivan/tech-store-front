@@ -1,0 +1,18 @@
+.radioButtonFilter {
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.radioButtonFilter__title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.radioButtonFilter__title > p {
+    font-size: var(--font-size-small);
+    color: var(--font-color-primary);
+    font-weight: 700;
+    margin-left: 0.3rem;
+}

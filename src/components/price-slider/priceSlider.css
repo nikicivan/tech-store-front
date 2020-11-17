@@ -1,0 +1,9 @@
+.MuiSlider-thumb > span {
+    font-size: 0.5rem !important;
+}
+
+.priceSlider__range {
+    font-size: var(--font-size-small);
+    color: var(--font-color-primary);
+    font-weight: 700;
+}

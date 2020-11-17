@@ -1,0 +1,17 @@
+.drawerImage {
+    height: 10rem;
+    object-fit: contain;
+}
+
+.drawerTitle {
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+    color: var(--font-color-primary);
+}
+
+.drawerTitle2 {
+    font-size: var(--font-size-small);
+    font-weight: 700;
+    color: var(--font-color-primary);
+    text-align: center !important;
+}

@@ -1,0 +1,40 @@
+.shopPage {
+    margin-top: 4rem;
+    
+    display: flex;
+    padding: 2rem;
+    
+}
+
+.shopPage__filters {
+    flex: 0.2;
+    margin-bottom: 2rem;
+}
+
+.shopPage__results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;  
+    flex: 0.8;
+    margin-bottom: 2rem;
+    height: 100vh;
+}
+
+.shopPage__filtersButton {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.shopPage__filtersButton > p {
+    font-size: var(--font-size-large);
+    color: var(--font-color-primary);
+    font-weight: 700;
+    
+}
+
+.shopPage__filtersOption {
+    margin: 1rem 0;
+    transition: all 0.3s linear;
+}

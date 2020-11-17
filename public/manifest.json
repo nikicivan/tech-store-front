@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Tech store",
+  "name": "Tech store app",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,9 +8,19 @@
       "type": "image/x-icon"
     },
     {
+      "src": "logo180.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
       "src": "logo192.png",
       "type": "image/png",
       "sizes": "192x192"
+    },
+    {
+      "src": "logo150.png",
+      "type": "image/png",
+      "sizes": "270x270"
     },
     {
       "src": "logo512.png",

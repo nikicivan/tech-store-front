@@ -1,0 +1,17 @@
+.star__ratings {
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.star__ratingsTitle {
+    display: flex;
+    align-items: center;
+}
+
+.star__ratingsTitle > p {
+    font-size: var(--font-size-small);
+    color: var(--font-color-primary);
+    font-weight: 700;
+    margin-left: 0.3rem;
+}

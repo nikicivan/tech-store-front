@@ -1,0 +1,25 @@
+.userNav__container {
+    margin: 2rem 0;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;         
+}
+
+.userNav__links {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.userNav__links > p {
+    font-size: var(--font-size-md);
+    color: var(--font-color-primary);
+    font-weight: 500;  
+    margin-left: 0.4rem;  
+}
+
+.userNav__links > p:hover {
+    font-weight: 700;
+    cursor: pointer;
+}

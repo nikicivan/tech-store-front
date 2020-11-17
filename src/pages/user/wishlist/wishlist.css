@@ -1,0 +1,46 @@
+.wishlist__container {
+    display: flex;    
+    height: 100vh;
+    margin-top: 1.1rem;
+}
+
+.wishlist__nav {
+    padding: 1rem 2rem;     
+    background-color: var(--background-color-primary); 
+}
+
+.wishlist__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.wishlist__title {
+    margin-top: 3rem;
+}
+
+.wishlist__title > h1 {
+    font-size: var(--font-size-md);
+    color: var(--font-color-primary);
+    font-weight: 700;
+}
+
+.wishlist__content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    justify-content: center;  
+    margin-top: 2rem;
+}
+
+
+.wishlist__content::-webkit-scrollbar {
+    display: none;
+}
+
+.wishlist__content {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

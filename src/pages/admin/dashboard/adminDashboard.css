@@ -1,0 +1,33 @@
+.adminDashboard__container {
+    display: flex;    
+    height: 100vh;
+    margin-top: 1.2rem;
+}
+
+.adminDashboard__nav {
+    padding: 1rem 2rem;     
+    background-color: var(--background-color-primary); 
+}
+
+.adminDashboard__content {
+    width: 100%;
+    overflow-y: scroll;
+    padding: 2rem;
+}
+
+.adminDashboard__content::-webkit-scrollbar {
+    display: none;
+}
+
+.adminDashboard__content {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.adminDashboard__title > h1 {
+    color: var(--font-color-primary);
+    font-size: var(--font-size-md);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+}

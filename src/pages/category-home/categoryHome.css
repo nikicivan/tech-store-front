@@ -1,0 +1,23 @@
+.categoryHome {
+    margin-top: 6rem;
+    
+}
+
+.categoryHome__title {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.categoryHome__title > h1 {
+    font-size: var(--font-size-large);
+    color: var(--font-color-primary);
+    font-weight: 700;
+    text-align: center;    
+}
+
+.categoryHome__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

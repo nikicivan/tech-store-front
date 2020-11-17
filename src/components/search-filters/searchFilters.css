@@ -1,0 +1,9 @@
+.searchFilters__searchInput {
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+.searchFilters__searchIcon {
+  background-color: #000;
+}

@@ -1,0 +1,109 @@
+.userHistory__container {
+    display: flex;    
+    height: 100vh;
+    margin-top: 1.1rem;
+}
+
+.userHistory__nav {
+    padding: 1rem 2rem;     
+    background-color: var(--background-color-primary);     
+}
+
+.userHistory__content { 
+    width: 100%;
+    overflow-y: scroll;
+    padding: 2rem;
+}
+
+.userHistory__content::-webkit-scrollbar {
+    display: none;
+}
+
+.userHistory__content {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.userHistory__title > h1 {
+    color: var(--font-color-primary);
+    font-size: var(--font-size-md);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.userHistory__eachOrder {
+    margin: 2rem;
+    padding: 1rem;
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.userHistory__orderDetails > h1 {
+    color: var(--font-color-primary);
+    font-size: var(--font-size-md);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.userHistory__orderDetails > p {
+    color: var(--font-color-primary);
+    font-size: var(--font-size-smal);
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.userHistory__orderDetails > p > span {
+    color: var(--font-color-primary);
+    font-size: var(--font-size-smal);
+    font-weight: 700;
+    margin-right: 0.4rem;
+}
+
+.userHistory__pdf {
+    margin-top: 1.5rem;
+}
+
+.userHistory__pdf > p {
+    font-size: var(--font-size-small);
+    color: var(--font-color-primary);
+    font-weight: 500;
+    text-align: center;
+}
+
+.userHistory__pdf > p:hover {
+    cursor: pointer;
+    font-weight: 700;    
+}
+
+.userHistory__pdfButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--font-color-primary);
+    font-size: var(--font-size-small);
+    font-weight: 500;
+}
+
+.userHistory__pdfButton:hover {    
+    font-size: var(--font-size-small);
+    color: var(--font-color-primary);
+    font-weight: 700;
+}
+
+.userHistory__pdfButton > p {
+    text-align: center;
+    margin-left: 0.4rem;
+}
+
+.userHistory__select {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.hidden {
+    display: none;
+}

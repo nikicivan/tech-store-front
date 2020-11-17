@@ -1,0 +1,38 @@
+.productsList__container {
+    display: flex;    
+    height: 100vh;
+    margin-top: 1.1rem;
+}
+
+.productsList__nav {
+    padding: 1rem 2rem;     
+    background-color: var(--background-color-primary); 
+}
+
+.productsList__content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.productsList__content::-webkit-scrollbar {
+    display: none;
+}
+
+.productsList__content {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.productList__card {
+    display: flex;
+    flex-direction: column;
+}
+
+.productList__options {
+    display: flex;
+    justify-content: space-around;
+}

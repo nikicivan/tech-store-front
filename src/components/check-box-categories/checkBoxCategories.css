@@ -1,0 +1,18 @@
+.checkBoxCategory {
+    margin-top: 2rem;
+}
+
+.checkBoxCategory__title {
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    border-top: 1px lightgray solid;
+}
+
+.checkBoxCategory__title > p {
+    margin-left: 0.5rem;
+    font-size: var(--font-size-small);
+    color: var(--font-color-primary);
+    font-weight: 700;
+}

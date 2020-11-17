@@ -1,0 +1,130 @@
+.checkoutPage {
+    margin-top: 4rem;
+}
+
+.checkoutPage > h1 {
+    font-size: var(--font-size-large);
+    font-weight: 700;
+    color: var(--font-color-primary);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.checkoutPage__deliveryAddress > h1 {
+    font-size: var(--font-size-large);
+    font-weight: 700;
+    color: var(--font-color-primary);
+    margin-bottom: 1rem;
+}
+
+.checkoutPage__deliveryAddress > p {
+    font-size: var(--font-size-small);
+    font-weight: 700;
+    color: var(--font-color-link);
+    margin-bottom: 1rem;
+}
+
+.checkoutPage__form {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+}
+
+.checkoutPage__form > input {
+    border: none;
+    outline-width: 0;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 1rem;
+    line-height: 1.6rem;
+}
+
+.checkoutPage__link,
+.checkoutPage__link:hover {
+    font-size: var(--font-size-large);
+    font-weight: 700;
+    color: var(--font-color-link);
+    margin-left: 0.5rem;
+}
+
+.checkoutPage__left {
+    margin-left: 3rem;
+}
+
+.checkoutPage__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 3rem;
+}
+
+.checkoutPage__right {
+    margin-right: 5rem;
+}
+
+.checkoutPage__right > h1 {
+    font-size: var(--font-size-large);
+    font-weight: 700;
+    color: var(--font-color-primary);
+    margin-bottom: 1rem;
+}
+
+.checkoutPage__numberOfProducts {
+    font-size: var(--font-size-md);
+    font-weight: 700;
+    color: var(--font-color-primary);
+    padding-bottom: 1rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.checkoutPage__listOfProducts {
+    padding: 1rem 0;
+}
+
+.checkoutPage__listOfProducts > p {
+    font-size: var(--font-size-small);
+    font-weight: 500;
+    color: var(--font-color-primary);
+}
+
+.checkoutPage__totalPrice {
+    font-size: var(--font-size-small);
+    font-weight: 700;
+    color: var(--font-color-primary);
+    border-top: 1px solid lightgray;
+    padding-top: 1rem;
+}
+
+.checkoutPage__buttons {
+    margin-top: 1rem;
+}
+
+.checkoutPage__couponForm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30rem;
+}
+
+
+.checkoutPage__coupons > p {
+    font-size: var(--font-size-md);
+    color: var(--font-color-primary);
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.checkoutPage__coupons > span {
+    font-size: var(--font-size-md);
+    color: var(--font-color-link);
+    font-style: italic;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.checkoutPage__couponForm > input {
+    border: none;
+    outline-width: 0;
+    line-height: 1.6rem;
+    border-bottom: 1px solid lightgray;
+    width: 50%;
+}

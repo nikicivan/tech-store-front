@@ -1,0 +1,22 @@
+.relatedProducts {
+    margin-top: 5rem;
+}
+
+.relatedProducts__title > h1 {
+    font-size: var(--font-size-large);
+    color: var(--font-color-primary);
+    font-weight: 700;
+    text-align: center;
+    user-select: none;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.relatedProducts__container {    
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+

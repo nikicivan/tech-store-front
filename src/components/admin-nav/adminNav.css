@@ -1,0 +1,25 @@
+.adminNav__container {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 100vh;
+    margin-top: 2rem;
+}
+
+.adminNav__links {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.adminNav__links > p {
+    font-size: var(--font-size-small);
+    color: var(--font-color-primary);  
+    font-weight: 500;    
+    margin-left: 0.4rem;
+}
+
+.adminNav__links > p:hover {
+    font-weight: 700;
+    cursor: pointer;
+}
