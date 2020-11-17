@@ -16,7 +16,7 @@ Categories CRUD
 
 Sub Categories CRUD
 
-Creating Products with Categories and Sub Categories (Advance)
+Creating Products with Categories and Sub Categories
 
 Multiple Image Uploads with Client Side Resize
 
